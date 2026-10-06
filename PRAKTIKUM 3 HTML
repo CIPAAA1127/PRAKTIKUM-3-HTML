@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Form Mahasiswa Boash University</title>
+    <style>
+        h1, h2 {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+      <h1 class="title">Form Mahasiswa Boash University</h1>
+
+    <h2>LOGIN MAHASISWA</h2>
+
+    <form action="" method="post">
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">LOGIN</button>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+
+    <h2>BIODATA MAHASISWA</h2>
+
+    <form>
+        NIM: <br>
+        <input type="text">
+        <br><br>
+
+        Nama Lengkap: <br>
+        <input type="text" required>
+        <br><br>
+
+        Email: <br>
+        <input type="email">
+        <br><br>
+
+        Tanggal Lahir: <br>
+        <input type="date">
+        <br><br>
+
+        Jenis Kelamin: <br>
+        <input type="radio" name="jk" value="Laki-laki"> Laki-laki <br>
+        <input type="radio" name="jk" value="Perempuan"> Perempuan
+        <br><br>
+
+        <input type="submit" value="SIMPAN">
+    </form>
+
+    <h2>MINAT TEKNOLOGI MAHASISWA</h2>
+
+<form>
+    <div>
+        Nama: <br>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        Pilih Minat: <br>
+        <input type="checkbox" name="minat"> Web Development <br>
+        <input type="checkbox" name="minat"> Artificial Intelligence <br>
+        <input type="checkbox" name="minat"> Mobile Development <br>
+        <input type="checkbox" name="minat"> Game Development <br>
+        <input type="checkbox" name="minat"> Cyber Security
+    </div>
+    <br>
+    <input type="submit" value="SIMPAN">
+</form>
+  </body>
+</html>
